@@ -1,0 +1,11 @@
+api_key = ''
+org_id = ''
+net_id = ''
+template_id = ''
+base_url = 'https://dashboard.meraki.com/api/v0/'
+org_url = '{0}/organizations/{1}'.format(str(base_url), str(org_id))
+bind_url = '{0}/networks/{1}/bind'.format(str(base_url), str(net_id))
+unbind_url = '{0}/networks/{1}/unbind'.format(str(base_url), str(net_id))
+template_data = {'configTemplateId':''}
+community_string = ''
+snmp_port = 16100
